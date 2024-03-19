@@ -80,3 +80,6 @@ crashlytics-build.properties
 /.vscode/settings.json
 Assets/Trix/StoreAssets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
 /ProjectSettings/Packages/com.unity.probuilder/Settings.json
+
+.fake
+.vscode
