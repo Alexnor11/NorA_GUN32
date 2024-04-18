@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+
+namespace %NAMESPACE_POINT%
+{
+	public static partial class UnityConstants
+	{
+	    [Flags]
+		public enum LayerEnum
+		{
+%LAYERS_COUNT_SPAWN%			%LAYER_NAME_POINT% = 1 << %LAYER_PROPERTY_VALUE_POINT%,
+		}
+
+%LAYERS_COUNT_SPAWN%		public const int %LAYER_NAME_POINT%LayerInt = %LAYER_PROPERTY_VALUE_POINT%;
+
+%LAYERS_COUNT_SPAWN%		public const string %LAYER_NAME_POINT%LayerName = "%LAYER_NAME_POINT%";
+
+        public static Dictionary<TagEnum, string> Tags = new Dictionary<TagEnum, string>()
+        {
+%TAGS_COUNT_SPAWN%        	{TagEnum.%TAG_NAME_POINT%, %TAG_NAME_POINT%TagName},
+        };
+
+		public enum TagEnum
+		{
+%TAGS_COUNT_SPAWN%			%TAG_NAME_POINT% = %TAG_ENUM_VALUE_POINT%,
+		}
+
+%TAGS_COUNT_SPAWN%		public const string %TAG_NAME_POINT%TagName = "%TAG_NAME_POINT%";
+	}
+}

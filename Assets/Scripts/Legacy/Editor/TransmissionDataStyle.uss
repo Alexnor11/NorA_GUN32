@@ -1,0 +1,16 @@
+Label {
+    left: 3%;
+    width: 15%;
+    margin-right: 2px;
+}
+
+#ParamLabel {
+}
+
+FloatField {
+    width: 25%;
+}
+
+.coef-float-field {
+    flex-grow: 1;
+}

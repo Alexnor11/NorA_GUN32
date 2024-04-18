@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Projectiles
+  - Obstacles
+  - Ground
+  - Players
+  - PostProcessing
   - 
   - 
   - 

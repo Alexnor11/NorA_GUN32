@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Tanks/Scripts/Editor/TransmissionDataStyle.uss?fileID=7433441132597879392&amp;guid=065c1aae578dc6349a69fd112c38094c&amp;type=3#TransmissionDataStyle" />
+    <ui:VisualElement style="border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgba(128, 128, 128, 0.5); border-right-color: rgba(128, 128, 128, 0.5); border-top-color: rgba(128, 128, 128, 0.5); border-bottom-color: rgba(128, 128, 128, 0.5); border-top-left-radius: 2px; border-bottom-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; padding-left: 3px; padding-right: 3px; padding-top: 3px; padding-bottom: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;">
+        <ui:VisualElement style="flex-direction: row; border-bottom-color: rgba(255, 0, 0, 0.39); border-right-width: 1px; border-left-width: 1px; border-left-color: rgba(255, 0, 0, 0.39); border-right-color: rgba(255, 0, 0, 0.39); border-top-color: rgba(255, 0, 0, 0.39); border-top-width: 2px; border-top-left-radius: 2px; border-top-right-radius: 2px;">
+            <ui:Label text="Coef A" display-tooltip-when-elided="true" />
+            <ui:Button text="&lt;" display-tooltip-when-elided="true" name="CoefALowButton" />
+            <uie:FloatField value="42,2" name="CoefAField" class="coef-float-field" />
+            <ui:Button text="&gt;" display-tooltip-when-elided="true" name="CoefAUpButton" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; border-bottom-width: 2px; border-bottom-color: rgba(255, 0, 0, 0.39); border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; border-right-width: 1px; border-left-width: 1px; border-left-color: rgba(255, 0, 0, 0.39); border-right-color: rgba(255, 0, 0, 0.39); margin-bottom: 4px;">
+            <ui:Label text="Coef B" display-tooltip-when-elided="true" />
+            <ui:Button text="&lt;" display-tooltip-when-elided="true" name="CoefBLowButton" />
+            <uie:FloatField value="42,2" name="CoefBField" class="coef-float-field" />
+            <ui:Button text="&gt;" display-tooltip-when-elided="true" name="CoefBUpButton" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row;">
+            <ui:Label text="Speed" display-tooltip-when-elided="true" />
+            <ui:Label text="Min" display-tooltip-when-elided="true" name="ParamLabel" />
+            <uie:FloatField value="0" name="MinSpeedField" />
+            <ui:Label text="Max" display-tooltip-when-elided="true" name="ParamLabel" />
+            <uie:FloatField value="42,2" name="MaxSpeedField" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row;">
+            <ui:Label text="Torque" display-tooltip-when-elided="true" />
+            <ui:Label text="Min" display-tooltip-when-elided="true" name="ParamLabel" />
+            <uie:FloatField value="0" name="MinTorqueField" />
+            <ui:Label text="Max" display-tooltip-when-elided="true" name="ParamLabel" />
+            <uie:FloatField value="42,2" name="MaxTorqueField" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
